@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran</title>
+</head>
+<body bgcolor ="skyblue">
+    <h2>Form Pendaftaran Mahasiswa</h2>
+    <form action="proses_pendaftaran.php" method="POST">
+
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br>
+        
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        
+        <label for="tempat">Tempat, Tanggal Lahir:</label>
+        <input type="text" id="tempat" name="tempat">
+        <input type="date" id="tanggal" name="tanggal"><br>
+        
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat"></textarea><br>
+        
+        <label for="jenis">Jenis Kelamin:</label>
+        <input type="radio" id="laki" name="jenis" value="Laki-laki">
+        <label for="laki">Laki-laki</label>
+
+        <input type="radio" id="perempuan" name="jenis" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
